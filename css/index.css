@@ -202,10 +202,10 @@ z-index:9999999;
 .carousel-inner .carousel-item .carousel-caption h2 {
     font-family: 'Poppins';
     color: #FFFFFF;
-    font-size: 60px;
+    font-size:55px;
     letter-spacing: -0.025em;
     font-weight: bold;
-    width: 80%;
+    width: 90%;
 
 }
 
@@ -234,8 +234,7 @@ z-index:9999999;
     color: var(--main-background);
     background-color: white;
 }
-
-@media (max-width:300px){
+@media (max-width:350px){
     .carousel-inner .carousel-item .carousel-caption {
         top: 50%;
         left: 50%;
@@ -263,29 +262,29 @@ z-index:9999999;
     display: none;
     }
 }
-@media (min-width:300px) and (max-width:767px) {
+@media (min-width:350px) and (max-width:450px) {
     .carousel-inner .carousel-item .carousel-caption {
         margin: 0;
-        top: 40%;
+        top: 30%;
         left: 50%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -30%);
         width: 100%;
         text-align: center;
-        -webkit-transform: translate(-50%, -40%);
-        -moz-transform: translate(-50%, -40%);
-        -ms-transform: translate(-50%, -40%);
-        -o-transform: translate(-50%, -40%);
-    }
+        -webkit-transform: translate(-50%, -30%);
+        -moz-transform: translate(-50%, -30%);
+        -ms-transform: translate(-50%, -30%);
+        -o-transform: translate(-50%, -30%);
+}
 
     .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
     }
 
     .carousel-inner .carousel-item .carousel-caption p {
         font-size: 15px;
-        line-height: 20px;
-        margin-bottom: 70px;
+        line-height: 18px;
+        margin-bottom: 50px;
         width: 75%;
         margin: auto;
 
@@ -295,8 +294,43 @@ z-index:9999999;
         padding: 5px 20px;
     }
 }
+@media (min-width:450px) and (max-width:600px){
+    .carousel-inner .carousel-item .carousel-caption {
+        margin: 0;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -30%);
+        -moz-transform: translate(-50%, -30%);
+        -ms-transform: translate(-50%, -30%);
+        -o-transform: translate(-50%, -30%);
+}
 
-@media(min-width:767px) and (max-width:991px) {
+    .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 20px;
+        line-height: 35px;
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+@media(min-width:600px) and (max-width:991px) {
     .carousel-inner .carousel-item .carousel-caption {
         margin: 0;
         top: 50%;
@@ -311,7 +345,7 @@ z-index:9999999;
     }
 
     .carousel-inner .carousel-item .carousel-caption h2 {
-        font-size: 50px;
+        font-size: 30px;
         width: 100%;
     }
 
@@ -367,6 +401,7 @@ z-index:9999999;
     padding: 10px 40px;
     position: relative;
 }
+
 @media(max-width:575px){
     .after{
     padding: 10px;
@@ -990,7 +1025,7 @@ z-index:9999999;
       bottom: 0;
       background: #000;
       z-index: 99999999999999999;
-}
+} 
 .spinner .cont{
     width: 100%;
     height: 100vh;
@@ -1015,7 +1050,7 @@ z-index:9999999;
 }
 @media (max-width:300px){
     .spinner span{
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 @media(min-width:300px) and (max-width:767px) {
@@ -1023,11 +1058,6 @@ z-index:9999999;
         font-size: 80px;
     }
 }
-/* @media(max-width:767px) {
-    .spinner span{
-        font-size: 80px;
-    }
-} */
 @keyframes animate {
     0%{
         transform: rotateY(360deg) scale(0);
