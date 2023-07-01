@@ -175,12 +175,7 @@ z-index:9999999;
 
 /* ------------------ end nav bar ---------------- */
 /* **************************************** Start curosal *************************** */
-@media (max-width:575px){
-    .carousel{
-        height: 100%;
-        margin-bottom: 10px;
-    }
-}
+
 .carousel-inner .carousel-item {
     overflow: hidden;
     position: relative;
