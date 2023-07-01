@@ -240,7 +240,35 @@ z-index:9999999;
     background-color: white;
 }
 
-@media(max-width:767px) {
+@media (max-width:300px){
+    .carousel-inner .carousel-item .carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        
+}
+.carousel-inner .carousel-item .carousel-caption .btn {
+    display: none;
+}
+.carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 20px;
+    width: 80%;
+    text-align: center !important;
+
+}
+    .carousel-inner .carousel-item .carousel-caption p {
+    display: none;
+    }
+}
+@media (min-width:300px) and (max-width:767px) {
     .carousel-inner .carousel-item .carousel-caption {
         margin: 0;
         top: 40%;
