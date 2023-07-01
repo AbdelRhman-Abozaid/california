@@ -175,7 +175,12 @@ z-index:9999999;
 
 /* ------------------ end nav bar ---------------- */
 /* **************************************** Start curosal *************************** */
-
+@media (max-width:575px){
+    .carousel{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+}
 .carousel-inner .carousel-item {
     overflow: hidden;
     position: relative;
@@ -343,6 +348,20 @@ z-index:9999999;
     .after{
     padding: 10px;
     }
+    
+.after p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.after .alt-btn {
+    text-align: center;
+    padding: 8px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
 /* **************************************** end after *************************** */
 
@@ -971,11 +990,21 @@ z-index:9999999;
     animation: animate 4s linear infinite;
     -webkit-animation: animate 4s linear infinite;
 }
-@media(max-width:767px) {
+@media (max-width:300px){
+    .spinner span{
+        font-size: 50px;
+    }
+}
+@media(min-width:300px) and (max-width:767px) {
     .spinner span{
         font-size: 80px;
     }
 }
+/* @media(max-width:767px) {
+    .spinner span{
+        font-size: 80px;
+    }
+} */
 @keyframes animate {
     0%{
         transform: rotateY(360deg) scale(0);
